@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyColor {
-  static const Color primaryColor = Color(0xFFFCA120);
+  static const Color primaryColor = Color(0xFF004C8E);
   static const Color colorBlack = Color(0xFF000000);
   static const Color colorWhite = Color(0xFFFFFFFF);
   static const Color colorHint = Color(0xFF52575C);
@@ -15,16 +15,16 @@ class MyColor {
 
   static const Color textFieldDisableBorderColor = Color(0xffCFCEDB);
 
-  static const Color primaryColor100 = Color(0xFFfca936);
-  static const Color primaryColor200 = Color(0xFFfcb22f);
-  static const Color primaryColor300 = Color(0xFFfcb44f);
-  static const Color primaryColor400 = Color(0xFFfdbf68);
-  static const Color primaryColor500 = Color(0xFFfdca81);
-  static const Color primaryColor600 = Color(0xFFfdd49b);
-  static const Color primaryColor700 = Color(0xFFfedfb4);
-  static const Color primaryColor800 = Color(0xFFfeeacd);
-  static const Color primaryColor900 = Color(0xFFfef5e6);
-  static const Color primaryColor1000 = Color(0xFFffe6f0);
+  static const Color primaryColor100 = Color(0xFF005A9B);
+  static const Color primaryColor200 = Color(0xFF0067A8);
+  static const Color primaryColor300 = Color(0xFF0073B4);
+  static const Color primaryColor400 = Color(0xFF0080C1);
+  static const Color primaryColor500 = Color(0xFF3393CE);
+  static const Color primaryColor600 = Color(0xFF66A7DB);
+  static const Color primaryColor700 = Color(0xFF99BCE8);
+  static const Color primaryColor800 = Color(0xFFCCE0F4);
+  static const Color primaryColor900 = Color(0xFFE6F2FA);
+  static const Color primaryColor1000 = Color(0xFFF2F9FD);
 
   static const Color textField = Color(0xFF042656);
   static const Color black5 = Color(0xFFf2f2f2);
