@@ -25,15 +25,9 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -47,32 +41,51 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDNHSyxSR1BN8AMZgUI0g9d_11ILLv45JA',
-    appId: '1:274514992002:android:deb28e1c360b561900cd9b',
-    messagingSenderId: '274514992002',
-    projectId: 'flutter-prime-df1c5',
-    storageBucket: 'flutter-prime-df1c5.appspot.com',
+    apiKey: 'AIzaSyBUKFm97Y0mRapjFv5cj1J4JLMdBgSUmiM',
+    appId: '1:546093429070:android:e597984b2a6783a31d2e1f',
+    messagingSenderId: '546093429070',
+    projectId: 'goicro-c5e26',
+    storageBucket: 'goicro-c5e26.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCcwfCcKBGvY892deYiQ45soyDbcAL-WW8',
-    appId: '1:274514992002:ios:ae5baa9be24990da00cd9b',
-    messagingSenderId: '274514992002',
-    projectId: 'flutter-prime-df1c5',
-    storageBucket: 'flutter-prime-df1c5.appspot.com',
-    androidClientId: '274514992002-3bf319q74c3jhe9ib460dc0ovbnt4og5.apps.googleusercontent.com',
-    iosClientId: '274514992002-sir5n1lsl1k41sehrqcd98ek6i7uf0ej.apps.googleusercontent.com',
+    apiKey: 'AIzaSyCnhj5jlLvBVGjI1gl6zM0lOuYgXYbddMM',
+    appId: '1:546093429070:ios:eab462b110414a7e1d2e1f',
+    messagingSenderId: '546093429070',
+    projectId: 'goicro-c5e26',
+    storageBucket: 'goicro-c5e26.firebasestorage.app',
+    iosClientId: '546093429070-klq13n5anjmrd6b231h26ls0qn89dvdi.apps.googleusercontent.com',
     iosBundleId: 'dev.vlab.com.localCoin',
   );
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBn9i1S8g_2KAoMTrZ08PSkl-Xq1N4OW_Q',
-    appId: '1:642335190187:web:42e9a0d573e85930929bee',
-    messagingSenderId: '642335190187',
-    projectId: 'localcoin-bae42',
-    authDomain: 'localcoin-bae42.firebaseapp.com',
-    storageBucket: 'localcoin-bae42.appspot.com',
-    measurementId: 'G-DM1TSC7SS0',
+    apiKey: 'AIzaSyD_1y9GmEftDW7CLO4H-7p6WEnn3i4GEOI',
+    appId: '1:546093429070:web:f3146da4913b5f891d2e1f',
+    messagingSenderId: '546093429070',
+    projectId: 'goicro-c5e26',
+    authDomain: 'goicro-c5e26.firebaseapp.com',
+    storageBucket: 'goicro-c5e26.firebasestorage.app',
+    measurementId: 'G-7F7VBVJPM5',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyCnhj5jlLvBVGjI1gl6zM0lOuYgXYbddMM',
+    appId: '1:546093429070:ios:0169dc392c166a621d2e1f',
+    messagingSenderId: '546093429070',
+    projectId: 'goicro-c5e26',
+    storageBucket: 'goicro-c5e26.firebasestorage.app',
+    iosClientId: '546093429070-jptg9do2oqalor4eqfhr3odhelmpl0rn.apps.googleusercontent.com',
+    iosBundleId: 'com.example.localCoin',
+  );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyD_1y9GmEftDW7CLO4H-7p6WEnn3i4GEOI',
+    appId: '1:546093429070:web:f3146da4913b5f891d2e1f',
+    messagingSenderId: '546093429070',
+    projectId: 'goicro-c5e26',
+    authDomain: 'goicro-c5e26.firebaseapp.com',
+    storageBucket: 'goicro-c5e26.firebasestorage.app',
+    measurementId: 'G-7F7VBVJPM5',
   );
 
 }
